@@ -1,6 +1,6 @@
 {
     "name": "noka-design/php-ubl",
-    "description": "UBL classes generated from xsd",
+    "description": "Deserialize UBL xml to PHP objects",
     "type": "library",
     "license": "MIT",
     "authors": [
