@@ -1,0 +1,56 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\DocumentResponseType:
+    properties:
+        response:
+            expose: true
+            access_type: public_method
+            serialized_name: Response
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getResponse
+                setter: setResponse
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\Response
+        documentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDocumentReference
+                setter: setDocumentReference
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\DocumentReference
+        issuerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: IssuerParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getIssuerParty
+                setter: setIssuerParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\IssuerParty
+        recipientParty:
+            expose: true
+            access_type: public_method
+            serialized_name: RecipientParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRecipientParty
+                setter: setRecipientParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\RecipientParty
+        lineResponse:
+            expose: true
+            access_type: public_method
+            serialized_name: LineResponse
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLineResponse
+                setter: setLineResponse
+            xml_list:
+                inline: true
+                entry_name: LineResponse
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\LineResponse>

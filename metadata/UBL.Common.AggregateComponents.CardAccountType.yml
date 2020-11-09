@@ -1,0 +1,112 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\CardAccountType:
+    properties:
+        primaryAccountNumberID:
+            expose: true
+            access_type: public_method
+            serialized_name: PrimaryAccountNumberID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPrimaryAccountNumberID
+                setter: setPrimaryAccountNumberID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\PrimaryAccountNumberID
+        networkID:
+            expose: true
+            access_type: public_method
+            serialized_name: NetworkID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNetworkID
+                setter: setNetworkID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\NetworkID
+        cardTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CardTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCardTypeCode
+                setter: setCardTypeCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\CardTypeCode
+        validityStartDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidityStartDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getValidityStartDate
+                setter: setValidityStartDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        expiryDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpiryDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExpiryDate
+                setter: setExpiryDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        issuerID:
+            expose: true
+            access_type: public_method
+            serialized_name: IssuerID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIssuerID
+                setter: setIssuerID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\IssuerID
+        issueNumberID:
+            expose: true
+            access_type: public_method
+            serialized_name: IssueNumberID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIssueNumberID
+                setter: setIssueNumberID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\IssueNumberID
+        cV2ID:
+            expose: true
+            access_type: public_method
+            serialized_name: CV2ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCV2ID
+                setter: setCV2ID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\CV2ID
+        cardChipCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CardChipCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCardChipCode
+                setter: setCardChipCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\CardChipCode
+        chipApplicationID:
+            expose: true
+            access_type: public_method
+            serialized_name: ChipApplicationID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getChipApplicationID
+                setter: setChipApplicationID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ChipApplicationID
+        holderName:
+            expose: true
+            access_type: public_method
+            serialized_name: HolderName
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getHolderName
+                setter: setHolderName
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\HolderName

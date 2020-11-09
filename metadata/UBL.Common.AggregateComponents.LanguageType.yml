@@ -1,0 +1,32 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\LanguageType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ID
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getName
+                setter: setName
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Name
+        localeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: LocaleCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLocaleCode
+                setter: setLocaleCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\LocaleCode

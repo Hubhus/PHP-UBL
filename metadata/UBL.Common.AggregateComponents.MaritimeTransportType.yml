@@ -1,0 +1,22 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\MaritimeTransportType:
+    properties:
+        vesselID:
+            expose: true
+            access_type: public_method
+            serialized_name: VesselID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getVesselID
+                setter: setVesselID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\VesselID
+        vesselName:
+            expose: true
+            access_type: public_method
+            serialized_name: VesselName
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getVesselName
+                setter: setVesselName
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\VesselName

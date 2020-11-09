@@ -1,0 +1,22 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\ItemComparisonType:
+    properties:
+        priceAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: PriceAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPriceAmount
+                setter: setPriceAmount
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\PriceAmount
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Quantity

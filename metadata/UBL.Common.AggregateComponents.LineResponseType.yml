@@ -1,0 +1,26 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\LineResponseType:
+    properties:
+        lineReference:
+            expose: true
+            access_type: public_method
+            serialized_name: LineReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLineReference
+                setter: setLineReference
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\LineReference
+        response:
+            expose: true
+            access_type: public_method
+            serialized_name: Response
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getResponse
+                setter: setResponse
+            xml_list:
+                inline: true
+                entry_name: Response
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\Response>

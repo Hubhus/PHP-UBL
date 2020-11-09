@@ -1,0 +1,102 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\SignatureType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ID
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Note
+        validationDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidationDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getValidationDate
+                setter: setValidationDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        validationTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidationTime
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getValidationTime
+                setter: setValidationTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        validatorID:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidatorID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getValidatorID
+                setter: setValidatorID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ValidatorID
+        canonicalizationMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: CanonicalizationMethod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCanonicalizationMethod
+                setter: setCanonicalizationMethod
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\CanonicalizationMethod
+        signatureMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: SignatureMethod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSignatureMethod
+                setter: setSignatureMethod
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\SignatureMethod
+        signatoryParty:
+            expose: true
+            access_type: public_method
+            serialized_name: SignatoryParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSignatoryParty
+                setter: setSignatoryParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\SignatoryParty
+        digitalSignatureAttachment:
+            expose: true
+            access_type: public_method
+            serialized_name: DigitalSignatureAttachment
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDigitalSignatureAttachment
+                setter: setDigitalSignatureAttachment
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\DigitalSignatureAttachment
+        originalDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginalDocumentReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOriginalDocumentReference
+                setter: setOriginalDocumentReference
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\OriginalDocumentReference

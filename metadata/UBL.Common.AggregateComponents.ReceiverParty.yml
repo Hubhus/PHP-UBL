@@ -1,0 +1,3 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\ReceiverParty:
+    xml_root_name: ReceiverParty
+    xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

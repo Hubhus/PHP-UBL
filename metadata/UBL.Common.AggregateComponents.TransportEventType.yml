@@ -1,0 +1,100 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\TransportEventType:
+    properties:
+        identificationID:
+            expose: true
+            access_type: public_method
+            serialized_name: IdentificationID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIdentificationID
+                setter: setIdentificationID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\IdentificationID
+        occurrenceDate:
+            expose: true
+            access_type: public_method
+            serialized_name: OccurrenceDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOccurrenceDate
+                setter: setOccurrenceDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        occurrenceTime:
+            expose: true
+            access_type: public_method
+            serialized_name: OccurrenceTime
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOccurrenceTime
+                setter: setOccurrenceTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        transportEventTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportEventTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTransportEventTypeCode
+                setter: setTransportEventTypeCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\TransportEventTypeCode
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Description
+        completionIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: CompletionIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCompletionIndicator
+                setter: setCompletionIndicator
+            type: bool
+        reportedShipment:
+            expose: true
+            access_type: public_method
+            serialized_name: ReportedShipment
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getReportedShipment
+                setter: setReportedShipment
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\ReportedShipment
+        currentStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: CurrentStatus
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCurrentStatus
+                setter: setCurrentStatus
+            xml_list:
+                inline: true
+                entry_name: CurrentStatus
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\CurrentStatus>
+        contact:
+            expose: true
+            access_type: public_method
+            serialized_name: Contact
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getContact
+                setter: setContact
+            xml_list:
+                inline: true
+                entry_name: Contact
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\Contact>

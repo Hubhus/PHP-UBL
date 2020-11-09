@@ -1,0 +1,3 @@
+NOKA\PHPUBL\UBL\Common\BasicComponents\ApplicationID:
+    xml_root_name: ApplicationID
+    xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

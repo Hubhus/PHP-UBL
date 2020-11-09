@@ -1,0 +1,158 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\CertificateOfOriginApplicationType:
+    properties:
+        referenceID:
+            expose: true
+            access_type: public_method
+            serialized_name: ReferenceID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReferenceID
+                setter: setReferenceID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ReferenceID
+        certificateType:
+            expose: true
+            access_type: public_method
+            serialized_name: CertificateType
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCertificateType
+                setter: setCertificateType
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\CertificateType
+        applicationStatusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ApplicationStatusCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getApplicationStatusCode
+                setter: setApplicationStatusCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ApplicationStatusCode
+        originalJobID:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginalJobID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOriginalJobID
+                setter: setOriginalJobID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\OriginalJobID
+        previousJobID:
+            expose: true
+            access_type: public_method
+            serialized_name: PreviousJobID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPreviousJobID
+                setter: setPreviousJobID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\PreviousJobID
+        remarks:
+            expose: true
+            access_type: public_method
+            serialized_name: Remarks
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRemarks
+                setter: setRemarks
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Remarks
+        shipment:
+            expose: true
+            access_type: public_method
+            serialized_name: Shipment
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getShipment
+                setter: setShipment
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\Shipment
+        endorserParty:
+            expose: true
+            access_type: public_method
+            serialized_name: EndorserParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getEndorserParty
+                setter: setEndorserParty
+            xml_list:
+                inline: true
+                entry_name: EndorserParty
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\EndorserParty>
+        preparationParty:
+            expose: true
+            access_type: public_method
+            serialized_name: PreparationParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPreparationParty
+                setter: setPreparationParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\PreparationParty
+        issuerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: IssuerParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getIssuerParty
+                setter: setIssuerParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\IssuerParty
+        issuingCountry:
+            expose: true
+            access_type: public_method
+            serialized_name: IssuingCountry
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getIssuingCountry
+                setter: setIssuingCountry
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\IssuingCountry
+        documentDistribution:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentDistribution
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDocumentDistribution
+                setter: setDocumentDistribution
+            xml_list:
+                inline: true
+                entry_name: DocumentDistribution
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\DocumentDistribution>
+        supportingDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: SupportingDocumentReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSupportingDocumentReference
+                setter: setSupportingDocumentReference
+            xml_list:
+                inline: true
+                entry_name: SupportingDocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\SupportingDocumentReference>
+        signature:
+            expose: true
+            access_type: public_method
+            serialized_name: Signature
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSignature
+                setter: setSignature
+            xml_list:
+                inline: true
+                entry_name: Signature
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\Signature>

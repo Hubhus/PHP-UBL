@@ -1,0 +1,42 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\EndorserPartyType:
+    properties:
+        roleCode:
+            expose: true
+            access_type: public_method
+            serialized_name: RoleCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRoleCode
+                setter: setRoleCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\RoleCode
+        sequenceNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: SequenceNumeric
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSequenceNumeric
+                setter: setSequenceNumeric
+            type: float
+        party:
+            expose: true
+            access_type: public_method
+            serialized_name: Party
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getParty
+                setter: setParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\Party
+        signatoryContact:
+            expose: true
+            access_type: public_method
+            serialized_name: SignatoryContact
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSignatoryContact
+                setter: setSignatoryContact
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\SignatoryContact

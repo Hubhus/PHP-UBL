@@ -1,0 +1,3 @@
+NOKA\PHPUBL\UBL\Common\BasicComponents\PlacardEndorsement:
+    xml_root_name: PlacardEndorsement
+    xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

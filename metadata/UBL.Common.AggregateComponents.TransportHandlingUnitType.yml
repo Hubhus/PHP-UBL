@@ -1,0 +1,204 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\TransportHandlingUnitType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ID
+        transportHandlingUnitTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportHandlingUnitTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTransportHandlingUnitTypeCode
+                setter: setTransportHandlingUnitTypeCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\TransportHandlingUnitTypeCode
+        handlingCode:
+            expose: true
+            access_type: public_method
+            serialized_name: HandlingCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getHandlingCode
+                setter: setHandlingCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\HandlingCode
+        handlingInstructions:
+            expose: true
+            access_type: public_method
+            serialized_name: HandlingInstructions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getHandlingInstructions
+                setter: setHandlingInstructions
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\HandlingInstructions
+        hazardousRiskIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: HazardousRiskIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getHazardousRiskIndicator
+                setter: setHazardousRiskIndicator
+            type: bool
+        totalGoodsItemQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalGoodsItemQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTotalGoodsItemQuantity
+                setter: setTotalGoodsItemQuantity
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\TotalGoodsItemQuantity
+        totalPackageQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalPackageQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTotalPackageQuantity
+                setter: setTotalPackageQuantity
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\TotalPackageQuantity
+        damageRemarks:
+            expose: true
+            access_type: public_method
+            serialized_name: DamageRemarks
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDamageRemarks
+                setter: setDamageRemarks
+            xml_list:
+                inline: true
+                entry_name: DamageRemarks
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\BasicComponents\DamageRemarks>
+        shippingMarks:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingMarks
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getShippingMarks
+                setter: setShippingMarks
+            xml_list:
+                inline: true
+                entry_name: ShippingMarks
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\BasicComponents\ShippingMarks>
+        handlingUnitDespatchLine:
+            expose: true
+            access_type: public_method
+            serialized_name: HandlingUnitDespatchLine
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getHandlingUnitDespatchLine
+                setter: setHandlingUnitDespatchLine
+            xml_list:
+                inline: true
+                entry_name: HandlingUnitDespatchLine
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\HandlingUnitDespatchLine>
+        actualPackage:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualPackage
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getActualPackage
+                setter: setActualPackage
+            xml_list:
+                inline: true
+                entry_name: ActualPackage
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\ActualPackage>
+        receivedHandlingUnitReceiptLine:
+            expose: true
+            access_type: public_method
+            serialized_name: ReceivedHandlingUnitReceiptLine
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getReceivedHandlingUnitReceiptLine
+                setter: setReceivedHandlingUnitReceiptLine
+            xml_list:
+                inline: true
+                entry_name: ReceivedHandlingUnitReceiptLine
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\ReceivedHandlingUnitReceiptLine>
+        transportEquipment:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportEquipment
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTransportEquipment
+                setter: setTransportEquipment
+            xml_list:
+                inline: true
+                entry_name: TransportEquipment
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\TransportEquipment>
+        hazardousGoodsTransit:
+            expose: true
+            access_type: public_method
+            serialized_name: HazardousGoodsTransit
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getHazardousGoodsTransit
+                setter: setHazardousGoodsTransit
+            xml_list:
+                inline: true
+                entry_name: HazardousGoodsTransit
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\HazardousGoodsTransit>
+        measurementDimension:
+            expose: true
+            access_type: public_method
+            serialized_name: MeasurementDimension
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMeasurementDimension
+                setter: setMeasurementDimension
+            xml_list:
+                inline: true
+                entry_name: MeasurementDimension
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\MeasurementDimension>
+        minimumTemperature:
+            expose: true
+            access_type: public_method
+            serialized_name: MinimumTemperature
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMinimumTemperature
+                setter: setMinimumTemperature
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\MinimumTemperature
+        maximumTemperature:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumTemperature
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMaximumTemperature
+                setter: setMaximumTemperature
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\MaximumTemperature

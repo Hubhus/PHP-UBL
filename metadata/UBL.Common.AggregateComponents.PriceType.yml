@@ -1,0 +1,104 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\PriceType:
+    properties:
+        priceAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: PriceAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPriceAmount
+                setter: setPriceAmount
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\PriceAmount
+        baseQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: BaseQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBaseQuantity
+                setter: setBaseQuantity
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\BaseQuantity
+        priceChangeReason:
+            expose: true
+            access_type: public_method
+            serialized_name: PriceChangeReason
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPriceChangeReason
+                setter: setPriceChangeReason
+            xml_list:
+                inline: true
+                entry_name: PriceChangeReason
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\BasicComponents\PriceChangeReason>
+        priceTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PriceTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPriceTypeCode
+                setter: setPriceTypeCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\PriceTypeCode
+        priceType:
+            expose: true
+            access_type: public_method
+            serialized_name: PriceType
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPriceType
+                setter: setPriceType
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\PriceType
+        orderableUnitFactorRate:
+            expose: true
+            access_type: public_method
+            serialized_name: OrderableUnitFactorRate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOrderableUnitFactorRate
+                setter: setOrderableUnitFactorRate
+            type: float
+        validityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidityPeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getValidityPeriod
+                setter: setValidityPeriod
+            xml_list:
+                inline: true
+                entry_name: ValidityPeriod
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\ValidityPeriod>
+        priceList:
+            expose: true
+            access_type: public_method
+            serialized_name: PriceList
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPriceList
+                setter: setPriceList
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\PriceList
+        allowanceCharge:
+            expose: true
+            access_type: public_method
+            serialized_name: AllowanceCharge
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAllowanceCharge
+                setter: setAllowanceCharge
+            xml_list:
+                inline: true
+                entry_name: AllowanceCharge
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\AllowanceCharge>

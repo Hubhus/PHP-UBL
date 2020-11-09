@@ -1,0 +1,102 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\TaxCategoryType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ID
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getName
+                setter: setName
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Name
+        percent:
+            expose: true
+            access_type: public_method
+            serialized_name: Percent
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPercent
+                setter: setPercent
+            type: float
+        baseUnitMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: BaseUnitMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBaseUnitMeasure
+                setter: setBaseUnitMeasure
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\BaseUnitMeasure
+        perUnitAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: PerUnitAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPerUnitAmount
+                setter: setPerUnitAmount
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\PerUnitAmount
+        taxExemptionReasonCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxExemptionReasonCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxExemptionReasonCode
+                setter: setTaxExemptionReasonCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\TaxExemptionReasonCode
+        taxExemptionReason:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxExemptionReason
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxExemptionReason
+                setter: setTaxExemptionReason
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\TaxExemptionReason
+        tierRange:
+            expose: true
+            access_type: public_method
+            serialized_name: TierRange
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTierRange
+                setter: setTierRange
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\TierRange
+        tierRatePercent:
+            expose: true
+            access_type: public_method
+            serialized_name: TierRatePercent
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTierRatePercent
+                setter: setTierRatePercent
+            type: float
+        taxScheme:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxScheme
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTaxScheme
+                setter: setTaxScheme
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\TaxScheme

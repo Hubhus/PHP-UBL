@@ -1,0 +1,3 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\Status:
+    xml_root_name: Status
+    xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

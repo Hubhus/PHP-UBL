@@ -1,0 +1,72 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\PartyTaxSchemeType:
+    properties:
+        registrationName:
+            expose: true
+            access_type: public_method
+            serialized_name: RegistrationName
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRegistrationName
+                setter: setRegistrationName
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\RegistrationName
+        companyID:
+            expose: true
+            access_type: public_method
+            serialized_name: CompanyID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCompanyID
+                setter: setCompanyID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\CompanyID
+        taxLevelCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxLevelCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxLevelCode
+                setter: setTaxLevelCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\TaxLevelCode
+        exemptionReasonCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ExemptionReasonCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExemptionReasonCode
+                setter: setExemptionReasonCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ExemptionReasonCode
+        exemptionReason:
+            expose: true
+            access_type: public_method
+            serialized_name: ExemptionReason
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExemptionReason
+                setter: setExemptionReason
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ExemptionReason
+        registrationAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: RegistrationAddress
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRegistrationAddress
+                setter: setRegistrationAddress
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\RegistrationAddress
+        taxScheme:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxScheme
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTaxScheme
+                setter: setTaxScheme
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\TaxScheme

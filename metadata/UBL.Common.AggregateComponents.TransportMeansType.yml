@@ -1,0 +1,106 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\TransportMeansType:
+    properties:
+        journeyID:
+            expose: true
+            access_type: public_method
+            serialized_name: JourneyID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getJourneyID
+                setter: setJourneyID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\JourneyID
+        registrationNationalityID:
+            expose: true
+            access_type: public_method
+            serialized_name: RegistrationNationalityID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRegistrationNationalityID
+                setter: setRegistrationNationalityID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\RegistrationNationalityID
+        registrationNationality:
+            expose: true
+            access_type: public_method
+            serialized_name: RegistrationNationality
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRegistrationNationality
+                setter: setRegistrationNationality
+            xml_list:
+                inline: true
+                entry_name: RegistrationNationality
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\BasicComponents\RegistrationNationality>
+        directionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: DirectionCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDirectionCode
+                setter: setDirectionCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\DirectionCode
+        stowage:
+            expose: true
+            access_type: public_method
+            serialized_name: Stowage
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getStowage
+                setter: setStowage
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\Stowage
+        airTransport:
+            expose: true
+            access_type: public_method
+            serialized_name: AirTransport
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAirTransport
+                setter: setAirTransport
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\AirTransport
+        roadTransport:
+            expose: true
+            access_type: public_method
+            serialized_name: RoadTransport
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRoadTransport
+                setter: setRoadTransport
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\RoadTransport
+        railTransport:
+            expose: true
+            access_type: public_method
+            serialized_name: RailTransport
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRailTransport
+                setter: setRailTransport
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\RailTransport
+        maritimeTransport:
+            expose: true
+            access_type: public_method
+            serialized_name: MaritimeTransport
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMaritimeTransport
+                setter: setMaritimeTransport
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\MaritimeTransport
+        ownerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: OwnerParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOwnerParty
+                setter: setOwnerParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\OwnerParty

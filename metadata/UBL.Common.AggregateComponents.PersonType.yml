@@ -1,0 +1,72 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\PersonType:
+    properties:
+        firstName:
+            expose: true
+            access_type: public_method
+            serialized_name: FirstName
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFirstName
+                setter: setFirstName
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\FirstName
+        familyName:
+            expose: true
+            access_type: public_method
+            serialized_name: FamilyName
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFamilyName
+                setter: setFamilyName
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\FamilyName
+        title:
+            expose: true
+            access_type: public_method
+            serialized_name: Title
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTitle
+                setter: setTitle
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Title
+        middleName:
+            expose: true
+            access_type: public_method
+            serialized_name: MiddleName
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMiddleName
+                setter: setMiddleName
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\MiddleName
+        nameSuffix:
+            expose: true
+            access_type: public_method
+            serialized_name: NameSuffix
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNameSuffix
+                setter: setNameSuffix
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\NameSuffix
+        jobTitle:
+            expose: true
+            access_type: public_method
+            serialized_name: JobTitle
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getJobTitle
+                setter: setJobTitle
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\JobTitle
+        organizationDepartment:
+            expose: true
+            access_type: public_method
+            serialized_name: OrganizationDepartment
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOrganizationDepartment
+                setter: setOrganizationDepartment
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\OrganizationDepartment

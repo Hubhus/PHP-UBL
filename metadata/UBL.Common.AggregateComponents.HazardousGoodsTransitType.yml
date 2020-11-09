@@ -1,0 +1,72 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\HazardousGoodsTransitType:
+    properties:
+        transportEmergencyCardCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportEmergencyCardCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTransportEmergencyCardCode
+                setter: setTransportEmergencyCardCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\TransportEmergencyCardCode
+        packingCriteriaCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PackingCriteriaCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPackingCriteriaCode
+                setter: setPackingCriteriaCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\PackingCriteriaCode
+        hazardousRegulationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: HazardousRegulationCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getHazardousRegulationCode
+                setter: setHazardousRegulationCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\HazardousRegulationCode
+        inhalationToxicityZoneCode:
+            expose: true
+            access_type: public_method
+            serialized_name: InhalationToxicityZoneCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInhalationToxicityZoneCode
+                setter: setInhalationToxicityZoneCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\InhalationToxicityZoneCode
+        transportAuthorizationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportAuthorizationCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTransportAuthorizationCode
+                setter: setTransportAuthorizationCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\TransportAuthorizationCode
+        maximumTemperature:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumTemperature
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMaximumTemperature
+                setter: setMaximumTemperature
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\MaximumTemperature
+        minimumTemperature:
+            expose: true
+            access_type: public_method
+            serialized_name: MinimumTemperature
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMinimumTemperature
+                setter: setMinimumTemperature
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\MinimumTemperature

@@ -1,0 +1,46 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\ItemPropertyType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getName
+                setter: setName
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Name
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: Value
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Value
+        usabilityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: UsabilityPeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getUsabilityPeriod
+                setter: setUsabilityPeriod
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\UsabilityPeriod
+        itemPropertyGroup:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemPropertyGroup
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getItemPropertyGroup
+                setter: setItemPropertyGroup
+            xml_list:
+                inline: true
+                entry_name: ItemPropertyGroup
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\ItemPropertyGroup>

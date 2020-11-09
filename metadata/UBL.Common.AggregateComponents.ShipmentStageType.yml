@@ -1,0 +1,126 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\ShipmentStageType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ID
+        transportModeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportModeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTransportModeCode
+                setter: setTransportModeCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\TransportModeCode
+        transportMeansTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportMeansTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTransportMeansTypeCode
+                setter: setTransportMeansTypeCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\TransportMeansTypeCode
+        transitDirectionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TransitDirectionCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTransitDirectionCode
+                setter: setTransitDirectionCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\TransitDirectionCode
+        preCarriageIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: PreCarriageIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPreCarriageIndicator
+                setter: setPreCarriageIndicator
+            type: bool
+        onCarriageIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: OnCarriageIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOnCarriageIndicator
+                setter: setOnCarriageIndicator
+            type: bool
+        transitPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: TransitPeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTransitPeriod
+                setter: setTransitPeriod
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\TransitPeriod
+        carrierParty:
+            expose: true
+            access_type: public_method
+            serialized_name: CarrierParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCarrierParty
+                setter: setCarrierParty
+            xml_list:
+                inline: true
+                entry_name: CarrierParty
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\CarrierParty>
+        transportMeans:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportMeans
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTransportMeans
+                setter: setTransportMeans
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\TransportMeans
+        loadingPortLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: LoadingPortLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLoadingPortLocation
+                setter: setLoadingPortLocation
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\LoadingPortLocation
+        unloadingPortLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: UnloadingPortLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getUnloadingPortLocation
+                setter: setUnloadingPortLocation
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\UnloadingPortLocation
+        transshipPortLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: TransshipPortLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTransshipPortLocation
+                setter: setTransshipPortLocation
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\TransshipPortLocation

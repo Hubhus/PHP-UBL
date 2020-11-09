@@ -1,0 +1,70 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\CatalogueRequestLineType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ID
+        contractSubdivision:
+            expose: true
+            access_type: public_method
+            serialized_name: ContractSubdivision
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getContractSubdivision
+                setter: setContractSubdivision
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ContractSubdivision
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\BasicComponents\Note>
+        lineValidityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: LineValidityPeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLineValidityPeriod
+                setter: setLineValidityPeriod
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\LineValidityPeriod
+        requiredItemLocationQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: RequiredItemLocationQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRequiredItemLocationQuantity
+                setter: setRequiredItemLocationQuantity
+            xml_list:
+                inline: true
+                entry_name: RequiredItemLocationQuantity
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\RequiredItemLocationQuantity>
+        item:
+            expose: true
+            access_type: public_method
+            serialized_name: Item
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getItem
+                setter: setItem
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\Item

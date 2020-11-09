@@ -1,0 +1,91 @@
+NOKA\PHPUBL\UNCEFACT\Data\UnqualifiedDataTypes\CodeType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        listID:
+            expose: true
+            access_type: public_method
+            serialized_name: listID
+            accessor:
+                getter: getListID
+                setter: setListID
+            xml_attribute: true
+            type: string
+        listAgencyID:
+            expose: true
+            access_type: public_method
+            serialized_name: listAgencyID
+            accessor:
+                getter: getListAgencyID
+                setter: setListAgencyID
+            xml_attribute: true
+            type: string
+        listAgencyName:
+            expose: true
+            access_type: public_method
+            serialized_name: listAgencyName
+            accessor:
+                getter: getListAgencyName
+                setter: setListAgencyName
+            xml_attribute: true
+            type: string
+        listName:
+            expose: true
+            access_type: public_method
+            serialized_name: listName
+            accessor:
+                getter: getListName
+                setter: setListName
+            xml_attribute: true
+            type: string
+        listVersionID:
+            expose: true
+            access_type: public_method
+            serialized_name: listVersionID
+            accessor:
+                getter: getListVersionID
+                setter: setListVersionID
+            xml_attribute: true
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            accessor:
+                getter: getName
+                setter: setName
+            xml_attribute: true
+            type: string
+        languageID:
+            expose: true
+            access_type: public_method
+            serialized_name: languageID
+            accessor:
+                getter: getLanguageID
+                setter: setLanguageID
+            xml_attribute: true
+            type: string
+        listURI:
+            expose: true
+            access_type: public_method
+            serialized_name: listURI
+            accessor:
+                getter: getListURI
+                setter: setListURI
+            xml_attribute: true
+            type: string
+        listSchemeURI:
+            expose: true
+            access_type: public_method
+            serialized_name: listSchemeURI
+            accessor:
+                getter: getListSchemeURI
+                setter: setListSchemeURI
+            xml_attribute: true
+            type: string

@@ -1,0 +1,42 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\PartyLegalEntityType:
+    properties:
+        registrationName:
+            expose: true
+            access_type: public_method
+            serialized_name: RegistrationName
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRegistrationName
+                setter: setRegistrationName
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\RegistrationName
+        companyID:
+            expose: true
+            access_type: public_method
+            serialized_name: CompanyID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCompanyID
+                setter: setCompanyID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\CompanyID
+        registrationAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: RegistrationAddress
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRegistrationAddress
+                setter: setRegistrationAddress
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\RegistrationAddress
+        corporateRegistrationScheme:
+            expose: true
+            access_type: public_method
+            serialized_name: CorporateRegistrationScheme
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCorporateRegistrationScheme
+                setter: setCorporateRegistrationScheme
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\CorporateRegistrationScheme

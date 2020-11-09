@@ -1,0 +1,162 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\DeliveryType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ID
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Quantity
+        minimumQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: MinimumQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMinimumQuantity
+                setter: setMinimumQuantity
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\MinimumQuantity
+        maximumQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaximumQuantity
+                setter: setMaximumQuantity
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\MaximumQuantity
+        actualDeliveryDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualDeliveryDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getActualDeliveryDate
+                setter: setActualDeliveryDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        actualDeliveryTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualDeliveryTime
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getActualDeliveryTime
+                setter: setActualDeliveryTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        latestDeliveryDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LatestDeliveryDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatestDeliveryDate
+                setter: setLatestDeliveryDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        latestDeliveryTime:
+            expose: true
+            access_type: public_method
+            serialized_name: LatestDeliveryTime
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatestDeliveryTime
+                setter: setLatestDeliveryTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        trackingID:
+            expose: true
+            access_type: public_method
+            serialized_name: TrackingID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTrackingID
+                setter: setTrackingID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\TrackingID
+        deliveryAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryAddress
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDeliveryAddress
+                setter: setDeliveryAddress
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\DeliveryAddress
+        deliveryLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDeliveryLocation
+                setter: setDeliveryLocation
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\DeliveryLocation
+        requestedDeliveryPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestedDeliveryPeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRequestedDeliveryPeriod
+                setter: setRequestedDeliveryPeriod
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\RequestedDeliveryPeriod
+        promisedDeliveryPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: PromisedDeliveryPeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPromisedDeliveryPeriod
+                setter: setPromisedDeliveryPeriod
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\PromisedDeliveryPeriod
+        estimatedDeliveryPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: EstimatedDeliveryPeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getEstimatedDeliveryPeriod
+                setter: setEstimatedDeliveryPeriod
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\EstimatedDeliveryPeriod
+        deliveryParty:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDeliveryParty
+                setter: setDeliveryParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\DeliveryParty
+        despatch:
+            expose: true
+            access_type: public_method
+            serialized_name: Despatch
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDespatch
+                setter: setDespatch
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\Despatch

@@ -1,0 +1,106 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\PaymentTermsType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ID
+        paymentMeansID:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentMeansID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentMeansID
+                setter: setPaymentMeansID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\PaymentMeansID
+        prepaidPaymentReferenceID:
+            expose: true
+            access_type: public_method
+            serialized_name: PrepaidPaymentReferenceID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPrepaidPaymentReferenceID
+                setter: setPrepaidPaymentReferenceID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\PrepaidPaymentReferenceID
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\BasicComponents\Note>
+        referenceEventCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ReferenceEventCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReferenceEventCode
+                setter: setReferenceEventCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ReferenceEventCode
+        settlementDiscountPercent:
+            expose: true
+            access_type: public_method
+            serialized_name: SettlementDiscountPercent
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSettlementDiscountPercent
+                setter: setSettlementDiscountPercent
+            type: float
+        penaltySurchargePercent:
+            expose: true
+            access_type: public_method
+            serialized_name: PenaltySurchargePercent
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPenaltySurchargePercent
+                setter: setPenaltySurchargePercent
+            type: float
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: Amount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Amount
+        settlementPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: SettlementPeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSettlementPeriod
+                setter: setSettlementPeriod
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\SettlementPeriod
+        penaltyPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: PenaltyPeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPenaltyPeriod
+                setter: setPenaltyPeriod
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\PenaltyPeriod

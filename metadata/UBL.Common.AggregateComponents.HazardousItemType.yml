@@ -1,0 +1,244 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\HazardousItemType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ID
+        placardNotation:
+            expose: true
+            access_type: public_method
+            serialized_name: PlacardNotation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPlacardNotation
+                setter: setPlacardNotation
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\PlacardNotation
+        placardEndorsement:
+            expose: true
+            access_type: public_method
+            serialized_name: PlacardEndorsement
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPlacardEndorsement
+                setter: setPlacardEndorsement
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\PlacardEndorsement
+        additionalInformation:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalInformation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAdditionalInformation
+                setter: setAdditionalInformation
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\AdditionalInformation
+        uNDGCode:
+            expose: true
+            access_type: public_method
+            serialized_name: UNDGCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getUNDGCode
+                setter: setUNDGCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\UNDGCode
+        emergencyProceduresCode:
+            expose: true
+            access_type: public_method
+            serialized_name: EmergencyProceduresCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEmergencyProceduresCode
+                setter: setEmergencyProceduresCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\EmergencyProceduresCode
+        medicalFirstAidGuideCode:
+            expose: true
+            access_type: public_method
+            serialized_name: MedicalFirstAidGuideCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMedicalFirstAidGuideCode
+                setter: setMedicalFirstAidGuideCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\MedicalFirstAidGuideCode
+        technicalName:
+            expose: true
+            access_type: public_method
+            serialized_name: TechnicalName
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTechnicalName
+                setter: setTechnicalName
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\TechnicalName
+        categoryName:
+            expose: true
+            access_type: public_method
+            serialized_name: CategoryName
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCategoryName
+                setter: setCategoryName
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\CategoryName
+        hazardousCategoryCode:
+            expose: true
+            access_type: public_method
+            serialized_name: HazardousCategoryCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getHazardousCategoryCode
+                setter: setHazardousCategoryCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\HazardousCategoryCode
+        upperOrangeHazardPlacardID:
+            expose: true
+            access_type: public_method
+            serialized_name: UpperOrangeHazardPlacardID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getUpperOrangeHazardPlacardID
+                setter: setUpperOrangeHazardPlacardID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\UpperOrangeHazardPlacardID
+        lowerOrangeHazardPlacardID:
+            expose: true
+            access_type: public_method
+            serialized_name: LowerOrangeHazardPlacardID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLowerOrangeHazardPlacardID
+                setter: setLowerOrangeHazardPlacardID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\LowerOrangeHazardPlacardID
+        markingID:
+            expose: true
+            access_type: public_method
+            serialized_name: MarkingID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMarkingID
+                setter: setMarkingID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\MarkingID
+        hazardClassID:
+            expose: true
+            access_type: public_method
+            serialized_name: HazardClassID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getHazardClassID
+                setter: setHazardClassID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\HazardClassID
+        netWeightMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: NetWeightMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNetWeightMeasure
+                setter: setNetWeightMeasure
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\NetWeightMeasure
+        netVolumeMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: NetVolumeMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNetVolumeMeasure
+                setter: setNetVolumeMeasure
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\NetVolumeMeasure
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Quantity
+        contactParty:
+            expose: true
+            access_type: public_method
+            serialized_name: ContactParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getContactParty
+                setter: setContactParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\ContactParty
+        secondaryHazard:
+            expose: true
+            access_type: public_method
+            serialized_name: SecondaryHazard
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSecondaryHazard
+                setter: setSecondaryHazard
+            xml_list:
+                inline: true
+                entry_name: SecondaryHazard
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\SecondaryHazard>
+        hazardousGoodsTransit:
+            expose: true
+            access_type: public_method
+            serialized_name: HazardousGoodsTransit
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getHazardousGoodsTransit
+                setter: setHazardousGoodsTransit
+            xml_list:
+                inline: true
+                entry_name: HazardousGoodsTransit
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\HazardousGoodsTransit>
+        emergencyTemperature:
+            expose: true
+            access_type: public_method
+            serialized_name: EmergencyTemperature
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getEmergencyTemperature
+                setter: setEmergencyTemperature
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\EmergencyTemperature
+        flashpointTemperature:
+            expose: true
+            access_type: public_method
+            serialized_name: FlashpointTemperature
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getFlashpointTemperature
+                setter: setFlashpointTemperature
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\FlashpointTemperature
+        additionalTemperature:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalTemperature
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAdditionalTemperature
+                setter: setAdditionalTemperature
+            xml_list:
+                inline: true
+                entry_name: AdditionalTemperature
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\AdditionalTemperature>

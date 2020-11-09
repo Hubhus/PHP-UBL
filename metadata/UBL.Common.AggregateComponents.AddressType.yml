@@ -1,0 +1,276 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\AddressType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ID
+        addressTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AddressTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAddressTypeCode
+                setter: setAddressTypeCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\AddressTypeCode
+        addressFormatCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AddressFormatCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAddressFormatCode
+                setter: setAddressFormatCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\AddressFormatCode
+        postbox:
+            expose: true
+            access_type: public_method
+            serialized_name: Postbox
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPostbox
+                setter: setPostbox
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Postbox
+        floor:
+            expose: true
+            access_type: public_method
+            serialized_name: Floor
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFloor
+                setter: setFloor
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Floor
+        room:
+            expose: true
+            access_type: public_method
+            serialized_name: Room
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRoom
+                setter: setRoom
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Room
+        streetName:
+            expose: true
+            access_type: public_method
+            serialized_name: StreetName
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getStreetName
+                setter: setStreetName
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\StreetName
+        additionalStreetName:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalStreetName
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAdditionalStreetName
+                setter: setAdditionalStreetName
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\AdditionalStreetName
+        blockName:
+            expose: true
+            access_type: public_method
+            serialized_name: BlockName
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBlockName
+                setter: setBlockName
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\BlockName
+        buildingName:
+            expose: true
+            access_type: public_method
+            serialized_name: BuildingName
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBuildingName
+                setter: setBuildingName
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\BuildingName
+        buildingNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: BuildingNumber
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBuildingNumber
+                setter: setBuildingNumber
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\BuildingNumber
+        inhouseMail:
+            expose: true
+            access_type: public_method
+            serialized_name: InhouseMail
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInhouseMail
+                setter: setInhouseMail
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\InhouseMail
+        department:
+            expose: true
+            access_type: public_method
+            serialized_name: Department
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDepartment
+                setter: setDepartment
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Department
+        markAttention:
+            expose: true
+            access_type: public_method
+            serialized_name: MarkAttention
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMarkAttention
+                setter: setMarkAttention
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\MarkAttention
+        markCare:
+            expose: true
+            access_type: public_method
+            serialized_name: MarkCare
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMarkCare
+                setter: setMarkCare
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\MarkCare
+        plotIdentification:
+            expose: true
+            access_type: public_method
+            serialized_name: PlotIdentification
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPlotIdentification
+                setter: setPlotIdentification
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\PlotIdentification
+        citySubdivisionName:
+            expose: true
+            access_type: public_method
+            serialized_name: CitySubdivisionName
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCitySubdivisionName
+                setter: setCitySubdivisionName
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\CitySubdivisionName
+        cityName:
+            expose: true
+            access_type: public_method
+            serialized_name: CityName
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCityName
+                setter: setCityName
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\CityName
+        postalZone:
+            expose: true
+            access_type: public_method
+            serialized_name: PostalZone
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPostalZone
+                setter: setPostalZone
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\PostalZone
+        countrySubentity:
+            expose: true
+            access_type: public_method
+            serialized_name: CountrySubentity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCountrySubentity
+                setter: setCountrySubentity
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\CountrySubentity
+        countrySubentityCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CountrySubentityCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCountrySubentityCode
+                setter: setCountrySubentityCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\CountrySubentityCode
+        region:
+            expose: true
+            access_type: public_method
+            serialized_name: Region
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRegion
+                setter: setRegion
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Region
+        district:
+            expose: true
+            access_type: public_method
+            serialized_name: District
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDistrict
+                setter: setDistrict
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\District
+        timezoneOffset:
+            expose: true
+            access_type: public_method
+            serialized_name: TimezoneOffset
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTimezoneOffset
+                setter: setTimezoneOffset
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\TimezoneOffset
+        addressLine:
+            expose: true
+            access_type: public_method
+            serialized_name: AddressLine
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAddressLine
+                setter: setAddressLine
+            xml_list:
+                inline: true
+                entry_name: AddressLine
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\AddressLine>
+        country:
+            expose: true
+            access_type: public_method
+            serialized_name: Country
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCountry
+                setter: setCountry
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\Country
+        locationCoordinate:
+            expose: true
+            access_type: public_method
+            serialized_name: LocationCoordinate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLocationCoordinate
+                setter: setLocationCoordinate
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\LocationCoordinate

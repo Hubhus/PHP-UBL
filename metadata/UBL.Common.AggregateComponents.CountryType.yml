@@ -1,0 +1,22 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\CountryType:
+    properties:
+        identificationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: IdentificationCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIdentificationCode
+                setter: setIdentificationCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\IdentificationCode
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getName
+                setter: setName
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Name

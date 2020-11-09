@@ -1,0 +1,52 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\OrderLineReferenceType:
+    properties:
+        lineID:
+            expose: true
+            access_type: public_method
+            serialized_name: LineID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLineID
+                setter: setLineID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\LineID
+        salesOrderLineID:
+            expose: true
+            access_type: public_method
+            serialized_name: SalesOrderLineID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSalesOrderLineID
+                setter: setSalesOrderLineID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\SalesOrderLineID
+        uUID:
+            expose: true
+            access_type: public_method
+            serialized_name: UUID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getUUID
+                setter: setUUID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\UUID
+        lineStatusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: LineStatusCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLineStatusCode
+                setter: setLineStatusCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\LineStatusCode
+        orderReference:
+            expose: true
+            access_type: public_method
+            serialized_name: OrderReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOrderReference
+                setter: setOrderReference
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\OrderReference

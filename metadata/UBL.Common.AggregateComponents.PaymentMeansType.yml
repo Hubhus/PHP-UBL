@@ -1,0 +1,120 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\PaymentMeansType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ID
+        paymentMeansCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentMeansCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentMeansCode
+                setter: setPaymentMeansCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\PaymentMeansCode
+        paymentDueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentDueDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentDueDate
+                setter: setPaymentDueDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        paymentChannelCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentChannelCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentChannelCode
+                setter: setPaymentChannelCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\PaymentChannelCode
+        instructionID:
+            expose: true
+            access_type: public_method
+            serialized_name: InstructionID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInstructionID
+                setter: setInstructionID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\InstructionID
+        instructionNote:
+            expose: true
+            access_type: public_method
+            serialized_name: InstructionNote
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInstructionNote
+                setter: setInstructionNote
+            xml_list:
+                inline: true
+                entry_name: InstructionNote
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\BasicComponents\InstructionNote>
+        paymentID:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentID
+                setter: setPaymentID
+            xml_list:
+                inline: true
+                entry_name: PaymentID
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\BasicComponents\PaymentID>
+        cardAccount:
+            expose: true
+            access_type: public_method
+            serialized_name: CardAccount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCardAccount
+                setter: setCardAccount
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\CardAccount
+        payerFinancialAccount:
+            expose: true
+            access_type: public_method
+            serialized_name: PayerFinancialAccount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPayerFinancialAccount
+                setter: setPayerFinancialAccount
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\PayerFinancialAccount
+        payeeFinancialAccount:
+            expose: true
+            access_type: public_method
+            serialized_name: PayeeFinancialAccount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPayeeFinancialAccount
+                setter: setPayeeFinancialAccount
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\PayeeFinancialAccount
+        creditAccount:
+            expose: true
+            access_type: public_method
+            serialized_name: CreditAccount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCreditAccount
+                setter: setCreditAccount
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\CreditAccount

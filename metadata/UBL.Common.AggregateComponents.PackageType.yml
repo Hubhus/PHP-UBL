@@ -1,0 +1,122 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\PackageType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ID
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Quantity
+        returnableMaterialIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ReturnableMaterialIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReturnableMaterialIndicator
+                setter: setReturnableMaterialIndicator
+            type: bool
+        packageLevelCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PackageLevelCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPackageLevelCode
+                setter: setPackageLevelCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\PackageLevelCode
+        packagingTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PackagingTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPackagingTypeCode
+                setter: setPackagingTypeCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\PackagingTypeCode
+        packingMaterial:
+            expose: true
+            access_type: public_method
+            serialized_name: PackingMaterial
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPackingMaterial
+                setter: setPackingMaterial
+            xml_list:
+                inline: true
+                entry_name: PackingMaterial
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\BasicComponents\PackingMaterial>
+        containedPackage:
+            expose: true
+            access_type: public_method
+            serialized_name: ContainedPackage
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getContainedPackage
+                setter: setContainedPackage
+            xml_list:
+                inline: true
+                entry_name: ContainedPackage
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\ContainedPackage>
+        goodsItem:
+            expose: true
+            access_type: public_method
+            serialized_name: GoodsItem
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getGoodsItem
+                setter: setGoodsItem
+            xml_list:
+                inline: true
+                entry_name: GoodsItem
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\GoodsItem>
+        measurementDimension:
+            expose: true
+            access_type: public_method
+            serialized_name: MeasurementDimension
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMeasurementDimension
+                setter: setMeasurementDimension
+            xml_list:
+                inline: true
+                entry_name: MeasurementDimension
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\MeasurementDimension>
+        deliveryUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryUnit
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDeliveryUnit
+                setter: setDeliveryUnit
+            xml_list:
+                inline: true
+                entry_name: DeliveryUnit
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\DeliveryUnit>

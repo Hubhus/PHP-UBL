@@ -1,0 +1,108 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\OrderLineType:
+    properties:
+        substitutionStatusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SubstitutionStatusCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSubstitutionStatusCode
+                setter: setSubstitutionStatusCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\SubstitutionStatusCode
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Note
+        lineItem:
+            expose: true
+            access_type: public_method
+            serialized_name: LineItem
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLineItem
+                setter: setLineItem
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\LineItem
+        sellerProposedSubstituteLineItem:
+            expose: true
+            access_type: public_method
+            serialized_name: SellerProposedSubstituteLineItem
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSellerProposedSubstituteLineItem
+                setter: setSellerProposedSubstituteLineItem
+            xml_list:
+                inline: true
+                entry_name: SellerProposedSubstituteLineItem
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\SellerProposedSubstituteLineItem>
+        sellerSubstitutedLineItem:
+            expose: true
+            access_type: public_method
+            serialized_name: SellerSubstitutedLineItem
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSellerSubstitutedLineItem
+                setter: setSellerSubstitutedLineItem
+            xml_list:
+                inline: true
+                entry_name: SellerSubstitutedLineItem
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\SellerSubstitutedLineItem>
+        buyerProposedSubstituteLineItem:
+            expose: true
+            access_type: public_method
+            serialized_name: BuyerProposedSubstituteLineItem
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getBuyerProposedSubstituteLineItem
+                setter: setBuyerProposedSubstituteLineItem
+            xml_list:
+                inline: true
+                entry_name: BuyerProposedSubstituteLineItem
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\BuyerProposedSubstituteLineItem>
+        catalogueLineReference:
+            expose: true
+            access_type: public_method
+            serialized_name: CatalogueLineReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCatalogueLineReference
+                setter: setCatalogueLineReference
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\CatalogueLineReference
+        quotationLineReference:
+            expose: true
+            access_type: public_method
+            serialized_name: QuotationLineReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getQuotationLineReference
+                setter: setQuotationLineReference
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\QuotationLineReference
+        documentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDocumentReference
+                setter: setDocumentReference
+            xml_list:
+                inline: true
+                entry_name: DocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\DocumentReference>

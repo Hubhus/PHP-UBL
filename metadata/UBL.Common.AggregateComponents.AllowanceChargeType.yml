@@ -1,0 +1,150 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\AllowanceChargeType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ID
+        chargeIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ChargeIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getChargeIndicator
+                setter: setChargeIndicator
+            type: bool
+        allowanceChargeReasonCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AllowanceChargeReasonCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAllowanceChargeReasonCode
+                setter: setAllowanceChargeReasonCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\AllowanceChargeReasonCode
+        allowanceChargeReason:
+            expose: true
+            access_type: public_method
+            serialized_name: AllowanceChargeReason
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAllowanceChargeReason
+                setter: setAllowanceChargeReason
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\AllowanceChargeReason
+        multiplierFactorNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: MultiplierFactorNumeric
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMultiplierFactorNumeric
+                setter: setMultiplierFactorNumeric
+            type: float
+        prepaidIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: PrepaidIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPrepaidIndicator
+                setter: setPrepaidIndicator
+            type: bool
+        sequenceNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: SequenceNumeric
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSequenceNumeric
+                setter: setSequenceNumeric
+            type: float
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: Amount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Amount
+        baseAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: BaseAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBaseAmount
+                setter: setBaseAmount
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\BaseAmount
+        accountingCostCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountingCostCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAccountingCostCode
+                setter: setAccountingCostCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\AccountingCostCode
+        accountingCost:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountingCost
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAccountingCost
+                setter: setAccountingCost
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\AccountingCost
+        taxCategory:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxCategory
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTaxCategory
+                setter: setTaxCategory
+            xml_list:
+                inline: true
+                entry_name: TaxCategory
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\TaxCategory>
+        taxTotal:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxTotal
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTaxTotal
+                setter: setTaxTotal
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\TaxTotal
+        paymentMeans:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentMeans
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPaymentMeans
+                setter: setPaymentMeans
+            xml_list:
+                inline: true
+                entry_name: PaymentMeans
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\PaymentMeans>

@@ -1,0 +1,82 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\MonetaryTotalType:
+    properties:
+        lineExtensionAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: LineExtensionAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLineExtensionAmount
+                setter: setLineExtensionAmount
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\LineExtensionAmount
+        taxExclusiveAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxExclusiveAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxExclusiveAmount
+                setter: setTaxExclusiveAmount
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\TaxExclusiveAmount
+        taxInclusiveAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxInclusiveAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxInclusiveAmount
+                setter: setTaxInclusiveAmount
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\TaxInclusiveAmount
+        allowanceTotalAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: AllowanceTotalAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAllowanceTotalAmount
+                setter: setAllowanceTotalAmount
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\AllowanceTotalAmount
+        chargeTotalAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: ChargeTotalAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getChargeTotalAmount
+                setter: setChargeTotalAmount
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ChargeTotalAmount
+        prepaidAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: PrepaidAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPrepaidAmount
+                setter: setPrepaidAmount
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\PrepaidAmount
+        payableRoundingAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: PayableRoundingAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPayableRoundingAmount
+                setter: setPayableRoundingAmount
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\PayableRoundingAmount
+        payableAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: PayableAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPayableAmount
+                setter: setPayableAmount
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\PayableAmount

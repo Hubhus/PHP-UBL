@@ -1,0 +1,52 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\TransportEquipmentSealType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ID
+        sealIssuerTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SealIssuerTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSealIssuerTypeCode
+                setter: setSealIssuerTypeCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\SealIssuerTypeCode
+        condition:
+            expose: true
+            access_type: public_method
+            serialized_name: Condition
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCondition
+                setter: setCondition
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Condition
+        sealStatusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SealStatusCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSealStatusCode
+                setter: setSealStatusCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\SealStatusCode
+        sealingPartyType:
+            expose: true
+            access_type: public_method
+            serialized_name: SealingPartyType
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSealingPartyType
+                setter: setSealingPartyType
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\SealingPartyType

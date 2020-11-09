@@ -1,0 +1,3 @@
+NOKA\PHPUBL\UBL\Common\BasicComponents\EmbeddedDocumentBinaryObject:
+    xml_root_name: EmbeddedDocumentBinaryObject
+    xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

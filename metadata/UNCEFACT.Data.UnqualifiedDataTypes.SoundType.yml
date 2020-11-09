@@ -1,0 +1,55 @@
+NOKA\PHPUBL\UNCEFACT\Data\UnqualifiedDataTypes\SoundType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded
+        format:
+            expose: true
+            access_type: public_method
+            serialized_name: format
+            accessor:
+                getter: getFormat
+                setter: setFormat
+            xml_attribute: true
+            type: string
+        mimeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: mimeCode
+            accessor:
+                getter: getMimeCode
+                setter: setMimeCode
+            xml_attribute: true
+            type: string
+        encodingCode:
+            expose: true
+            access_type: public_method
+            serialized_name: encodingCode
+            accessor:
+                getter: getEncodingCode
+                setter: setEncodingCode
+            xml_attribute: true
+            type: string
+        uri:
+            expose: true
+            access_type: public_method
+            serialized_name: uri
+            accessor:
+                getter: getUri
+                setter: setUri
+            xml_attribute: true
+            type: string
+        filename:
+            expose: true
+            access_type: public_method
+            serialized_name: filename
+            accessor:
+                getter: getFilename
+                setter: setFilename
+            xml_attribute: true
+            type: string

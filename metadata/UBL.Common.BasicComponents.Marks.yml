@@ -1,0 +1,3 @@
+NOKA\PHPUBL\UBL\Common\BasicComponents\Marks:
+    xml_root_name: Marks
+    xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

@@ -1,0 +1,42 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\ExternalReferenceType:
+    properties:
+        uRI:
+            expose: true
+            access_type: public_method
+            serialized_name: URI
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getURI
+                setter: setURI
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\URI
+        documentHash:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentHash
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDocumentHash
+                setter: setDocumentHash
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\DocumentHash
+        expiryDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpiryDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExpiryDate
+                setter: setExpiryDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        expiryTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpiryTime
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExpiryTime
+                setter: setExpiryTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time

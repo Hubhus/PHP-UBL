@@ -1,0 +1,190 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\TransportEquipmentType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ID
+        transportEquipmentTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportEquipmentTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTransportEquipmentTypeCode
+                setter: setTransportEquipmentTypeCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\TransportEquipmentTypeCode
+        providerTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ProviderTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getProviderTypeCode
+                setter: setProviderTypeCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ProviderTypeCode
+        ownerTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: OwnerTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOwnerTypeCode
+                setter: setOwnerTypeCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\OwnerTypeCode
+        sizeTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SizeTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSizeTypeCode
+                setter: setSizeTypeCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\SizeTypeCode
+        dispositionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: DispositionCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDispositionCode
+                setter: setDispositionCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\DispositionCode
+        fullnessIndicationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: FullnessIndicationCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getFullnessIndicationCode
+                setter: setFullnessIndicationCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\FullnessIndicationCode
+        refrigerationOnIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: RefrigerationOnIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRefrigerationOnIndicator
+                setter: setRefrigerationOnIndicator
+            type: bool
+        information:
+            expose: true
+            access_type: public_method
+            serialized_name: Information
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInformation
+                setter: setInformation
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Information
+        returnabilityIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ReturnabilityIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReturnabilityIndicator
+                setter: setReturnabilityIndicator
+            type: bool
+        legalStatusIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: LegalStatusIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLegalStatusIndicator
+                setter: setLegalStatusIndicator
+            type: bool
+        measurementDimension:
+            expose: true
+            access_type: public_method
+            serialized_name: MeasurementDimension
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMeasurementDimension
+                setter: setMeasurementDimension
+            xml_list:
+                inline: true
+                entry_name: MeasurementDimension
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\MeasurementDimension>
+        transportEquipmentSeal:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportEquipmentSeal
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTransportEquipmentSeal
+                setter: setTransportEquipmentSeal
+            xml_list:
+                inline: true
+                entry_name: TransportEquipmentSeal
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\TransportEquipmentSeal>
+        minimumTemperature:
+            expose: true
+            access_type: public_method
+            serialized_name: MinimumTemperature
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMinimumTemperature
+                setter: setMinimumTemperature
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\MinimumTemperature
+        maximumTemperature:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumTemperature
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMaximumTemperature
+                setter: setMaximumTemperature
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\MaximumTemperature
+        providerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: ProviderParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getProviderParty
+                setter: setProviderParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\ProviderParty
+        loadingProofParty:
+            expose: true
+            access_type: public_method
+            serialized_name: LoadingProofParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLoadingProofParty
+                setter: setLoadingProofParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\LoadingProofParty
+        loadingLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: LoadingLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLoadingLocation
+                setter: setLoadingLocation
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\LoadingLocation

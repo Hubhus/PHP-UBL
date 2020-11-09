@@ -1,0 +1,62 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\PaymentType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ID
+        paidAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: PaidAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaidAmount
+                setter: setPaidAmount
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\PaidAmount
+        receivedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ReceivedDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReceivedDate
+                setter: setReceivedDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        paidDate:
+            expose: true
+            access_type: public_method
+            serialized_name: PaidDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaidDate
+                setter: setPaidDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        paidTime:
+            expose: true
+            access_type: public_method
+            serialized_name: PaidTime
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaidTime
+                setter: setPaidTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        instructionID:
+            expose: true
+            access_type: public_method
+            serialized_name: InstructionID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInstructionID
+                setter: setInstructionID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\InstructionID

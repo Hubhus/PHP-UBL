@@ -1,0 +1,92 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\ExchangeRateType:
+    properties:
+        sourceCurrencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SourceCurrencyCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSourceCurrencyCode
+                setter: setSourceCurrencyCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\SourceCurrencyCode
+        sourceCurrencyBaseRate:
+            expose: true
+            access_type: public_method
+            serialized_name: SourceCurrencyBaseRate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSourceCurrencyBaseRate
+                setter: setSourceCurrencyBaseRate
+            type: float
+        targetCurrencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TargetCurrencyCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTargetCurrencyCode
+                setter: setTargetCurrencyCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\TargetCurrencyCode
+        targetCurrencyBaseRate:
+            expose: true
+            access_type: public_method
+            serialized_name: TargetCurrencyBaseRate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTargetCurrencyBaseRate
+                setter: setTargetCurrencyBaseRate
+            type: float
+        exchangeMarketID:
+            expose: true
+            access_type: public_method
+            serialized_name: ExchangeMarketID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExchangeMarketID
+                setter: setExchangeMarketID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ExchangeMarketID
+        calculationRate:
+            expose: true
+            access_type: public_method
+            serialized_name: CalculationRate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCalculationRate
+                setter: setCalculationRate
+            type: float
+        mathematicOperatorCode:
+            expose: true
+            access_type: public_method
+            serialized_name: MathematicOperatorCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMathematicOperatorCode
+                setter: setMathematicOperatorCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\MathematicOperatorCode
+        date:
+            expose: true
+            access_type: public_method
+            serialized_name: Date
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDate
+                setter: setDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        foreignExchangeContract:
+            expose: true
+            access_type: public_method
+            serialized_name: ForeignExchangeContract
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getForeignExchangeContract
+                setter: setForeignExchangeContract
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\ForeignExchangeContract

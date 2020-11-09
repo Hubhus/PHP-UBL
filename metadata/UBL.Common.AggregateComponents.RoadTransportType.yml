@@ -1,0 +1,12 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\RoadTransportType:
+    properties:
+        licensePlateID:
+            expose: true
+            access_type: public_method
+            serialized_name: LicensePlateID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLicensePlateID
+                setter: setLicensePlateID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\LicensePlateID

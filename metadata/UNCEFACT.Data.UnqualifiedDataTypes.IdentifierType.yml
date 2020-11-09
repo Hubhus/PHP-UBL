@@ -1,0 +1,73 @@
+NOKA\PHPUBL\UNCEFACT\Data\UnqualifiedDataTypes\IdentifierType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        schemeID:
+            expose: true
+            access_type: public_method
+            serialized_name: schemeID
+            accessor:
+                getter: getSchemeID
+                setter: setSchemeID
+            xml_attribute: true
+            type: string
+        schemeName:
+            expose: true
+            access_type: public_method
+            serialized_name: schemeName
+            accessor:
+                getter: getSchemeName
+                setter: setSchemeName
+            xml_attribute: true
+            type: string
+        schemeAgencyID:
+            expose: true
+            access_type: public_method
+            serialized_name: schemeAgencyID
+            accessor:
+                getter: getSchemeAgencyID
+                setter: setSchemeAgencyID
+            xml_attribute: true
+            type: string
+        schemeAgencyName:
+            expose: true
+            access_type: public_method
+            serialized_name: schemeAgencyName
+            accessor:
+                getter: getSchemeAgencyName
+                setter: setSchemeAgencyName
+            xml_attribute: true
+            type: string
+        schemeVersionID:
+            expose: true
+            access_type: public_method
+            serialized_name: schemeVersionID
+            accessor:
+                getter: getSchemeVersionID
+                setter: setSchemeVersionID
+            xml_attribute: true
+            type: string
+        schemeDataURI:
+            expose: true
+            access_type: public_method
+            serialized_name: schemeDataURI
+            accessor:
+                getter: getSchemeDataURI
+                setter: setSchemeDataURI
+            xml_attribute: true
+            type: string
+        schemeURI:
+            expose: true
+            access_type: public_method
+            serialized_name: schemeURI
+            accessor:
+                getter: getSchemeURI
+                setter: setSchemeURI
+            xml_attribute: true
+            type: string

@@ -1,0 +1,12 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\AddressLineType:
+    properties:
+        line:
+            expose: true
+            access_type: public_method
+            serialized_name: Line
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLine
+                setter: setLine
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Line

@@ -1,0 +1,102 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\StatusType:
+    properties:
+        conditionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ConditionCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConditionCode
+                setter: setConditionCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ConditionCode
+        referenceDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ReferenceDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReferenceDate
+                setter: setReferenceDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        referenceTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ReferenceTime
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReferenceTime
+                setter: setReferenceTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Description
+        statusReasonCode:
+            expose: true
+            access_type: public_method
+            serialized_name: StatusReasonCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getStatusReasonCode
+                setter: setStatusReasonCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\StatusReasonCode
+        statusReason:
+            expose: true
+            access_type: public_method
+            serialized_name: StatusReason
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getStatusReason
+                setter: setStatusReason
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\StatusReason
+        sequenceID:
+            expose: true
+            access_type: public_method
+            serialized_name: SequenceID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSequenceID
+                setter: setSequenceID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\SequenceID
+        text:
+            expose: true
+            access_type: public_method
+            serialized_name: Text
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getText
+                setter: setText
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Text
+        indicationIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: IndicationIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIndicationIndicator
+                setter: setIndicationIndicator
+            type: bool
+        percent:
+            expose: true
+            access_type: public_method
+            serialized_name: Percent
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPercent
+                setter: setPercent
+            type: float

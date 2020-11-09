@@ -1,0 +1,60 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\EndorsementType:
+    properties:
+        documentID:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDocumentID
+                setter: setDocumentID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\DocumentID
+        approvalStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: ApprovalStatus
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getApprovalStatus
+                setter: setApprovalStatus
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ApprovalStatus
+        remarks:
+            expose: true
+            access_type: public_method
+            serialized_name: Remarks
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRemarks
+                setter: setRemarks
+            xml_list:
+                inline: true
+                entry_name: Remarks
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\BasicComponents\Remarks>
+        endorserParty:
+            expose: true
+            access_type: public_method
+            serialized_name: EndorserParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getEndorserParty
+                setter: setEndorserParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\EndorserParty
+        signature:
+            expose: true
+            access_type: public_method
+            serialized_name: Signature
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSignature
+                setter: setSignature
+            xml_list:
+                inline: true
+                entry_name: Signature
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\Signature>

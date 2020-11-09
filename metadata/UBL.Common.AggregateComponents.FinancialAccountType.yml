@@ -1,0 +1,76 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\FinancialAccountType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ID
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getName
+                setter: setName
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Name
+        accountTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAccountTypeCode
+                setter: setAccountTypeCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\AccountTypeCode
+        currencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CurrencyCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCurrencyCode
+                setter: setCurrencyCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\CurrencyCode
+        paymentNote:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentNote
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentNote
+                setter: setPaymentNote
+            xml_list:
+                inline: true
+                entry_name: PaymentNote
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\BasicComponents\PaymentNote>
+        financialInstitutionBranch:
+            expose: true
+            access_type: public_method
+            serialized_name: FinancialInstitutionBranch
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getFinancialInstitutionBranch
+                setter: setFinancialInstitutionBranch
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\FinancialInstitutionBranch
+        country:
+            expose: true
+            access_type: public_method
+            serialized_name: Country
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCountry
+                setter: setCountry
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\Country

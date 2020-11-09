@@ -1,0 +1,36 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\TradingTermsType:
+    properties:
+        information:
+            expose: true
+            access_type: public_method
+            serialized_name: Information
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInformation
+                setter: setInformation
+            xml_list:
+                inline: true
+                entry_name: Information
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\BasicComponents\Information>
+        reference:
+            expose: true
+            access_type: public_method
+            serialized_name: Reference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReference
+                setter: setReference
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Reference
+        applicableAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: ApplicableAddress
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getApplicableAddress
+                setter: setApplicableAddress
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\ApplicableAddress

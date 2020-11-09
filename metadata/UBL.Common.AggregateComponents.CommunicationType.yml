@@ -1,0 +1,32 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\CommunicationType:
+    properties:
+        channelCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ChannelCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getChannelCode
+                setter: setChannelCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ChannelCode
+        channel:
+            expose: true
+            access_type: public_method
+            serialized_name: Channel
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getChannel
+                setter: setChannel
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Channel
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: Value
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Value

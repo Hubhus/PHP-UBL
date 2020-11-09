@@ -1,0 +1,19 @@
+NOKA\PHPUBL\UNCEFACT\Data\UnqualifiedDataTypes\TextType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        languageID:
+            expose: true
+            access_type: public_method
+            serialized_name: languageID
+            accessor:
+                getter: getLanguageID
+                setter: setLanguageID
+            xml_attribute: true
+            type: string

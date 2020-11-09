@@ -1,0 +1,26 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\PricingReferenceType:
+    properties:
+        originalItemLocationQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginalItemLocationQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOriginalItemLocationQuantity
+                setter: setOriginalItemLocationQuantity
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\OriginalItemLocationQuantity
+        alternativeConditionPrice:
+            expose: true
+            access_type: public_method
+            serialized_name: AlternativeConditionPrice
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAlternativeConditionPrice
+                setter: setAlternativeConditionPrice
+            xml_list:
+                inline: true
+                entry_name: AlternativeConditionPrice
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\AlternativeConditionPrice>

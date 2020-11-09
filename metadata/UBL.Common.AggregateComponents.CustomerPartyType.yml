@@ -1,0 +1,76 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\CustomerPartyType:
+    properties:
+        customerAssignedAccountID:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomerAssignedAccountID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCustomerAssignedAccountID
+                setter: setCustomerAssignedAccountID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\CustomerAssignedAccountID
+        supplierAssignedAccountID:
+            expose: true
+            access_type: public_method
+            serialized_name: SupplierAssignedAccountID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSupplierAssignedAccountID
+                setter: setSupplierAssignedAccountID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\SupplierAssignedAccountID
+        additionalAccountID:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalAccountID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAdditionalAccountID
+                setter: setAdditionalAccountID
+            xml_list:
+                inline: true
+                entry_name: AdditionalAccountID
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\BasicComponents\AdditionalAccountID>
+        party:
+            expose: true
+            access_type: public_method
+            serialized_name: Party
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getParty
+                setter: setParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\Party
+        deliveryContact:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryContact
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDeliveryContact
+                setter: setDeliveryContact
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\DeliveryContact
+        accountingContact:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountingContact
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAccountingContact
+                setter: setAccountingContact
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\AccountingContact
+        buyerContact:
+            expose: true
+            access_type: public_method
+            serialized_name: BuyerContact
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getBuyerContact
+                setter: setBuyerContact
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\BuyerContact

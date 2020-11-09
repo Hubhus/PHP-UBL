@@ -1,0 +1,102 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\DespatchType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ID
+        requestedDespatchDate:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestedDespatchDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRequestedDespatchDate
+                setter: setRequestedDespatchDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        requestedDespatchTime:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestedDespatchTime
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRequestedDespatchTime
+                setter: setRequestedDespatchTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        estimatedDespatchDate:
+            expose: true
+            access_type: public_method
+            serialized_name: EstimatedDespatchDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEstimatedDespatchDate
+                setter: setEstimatedDespatchDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        estimatedDespatchTime:
+            expose: true
+            access_type: public_method
+            serialized_name: EstimatedDespatchTime
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEstimatedDespatchTime
+                setter: setEstimatedDespatchTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        actualDespatchDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualDespatchDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getActualDespatchDate
+                setter: setActualDespatchDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        actualDespatchTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualDespatchTime
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getActualDespatchTime
+                setter: setActualDespatchTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        despatchAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: DespatchAddress
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDespatchAddress
+                setter: setDespatchAddress
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\DespatchAddress
+        despatchParty:
+            expose: true
+            access_type: public_method
+            serialized_name: DespatchParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDespatchParty
+                setter: setDespatchParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\DespatchParty
+        contact:
+            expose: true
+            access_type: public_method
+            serialized_name: Contact
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getContact
+                setter: setContact
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\Contact

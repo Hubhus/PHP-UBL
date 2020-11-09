@@ -1,0 +1,27 @@
+{
+    "name": "noka/php-ubl",
+    "description": "UBL classes generated from xsd",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Morten Scheel",
+            "email": "ms@nokadesign.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NOKA\\PHPUBL\\": "src/"
+        }
+    },
+    "require": {
+        "goetas-webservices/xsd2php-runtime": "^0.2.13"
+    },
+    "require-dev": {
+        "goetas-webservices/xsd2php": "^0.4.0"
+    },
+    "scripts": {
+        "build": "xsd2php convert config.yml schema/maindoc/UBL-Invoice-2.0.xsd",
+        "clean": "rm -rf metadata src/UBL src/UNCEFACT"
+    }
+}

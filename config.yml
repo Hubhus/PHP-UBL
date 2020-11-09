@@ -1,0 +1,23 @@
+xsd2php:
+  namespaces:
+    'urn:oasis:names:specification:ubl:schema:xsd:Invoice-2': 'NOKA\PHPUBL\UBL'
+    'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2': 'NOKA\PHPUBL\UBL\Common\ExtensionComponents'
+    'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2': 'NOKA\PHPUBL\UBL\Common\BasicComponents'
+    'urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2': 'NOKA\PHPUBL\UBL\Common\QualifiedDatatypes'
+    'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2': 'NOKA\PHPUBL\UBL\Common\AggregateComponents'
+    'urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2': 'NOKA\PHPUBL\UBL\UnqualifiedDataTypes'
+    'urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2': 'NOKA\PHPUBL\UNCEFACT\Data\UnqualifiedDataTypes'
+    'urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2': 'NOKA\PHPUBL\UNCEFACT\Data\CoreComponentType'
+    'urn:un:unece:uncefact:codelist:specification:66411:2001': 'NOKA\PHPUBL\UNCEFACT\CodeList\66411:2001'
+    'urn:un:unece:uncefact:codelist:specification:IANAMIMEMediaType:2003': 'NOKA\PHPUBL\UNCEFACT\CodeList\IANAMIMEMediaType:2003'
+    'urn:un:unece:uncefact:codelist:specification:54217:2001': 'NOKA\PHPUBL\UNCEFACT\CodeList\CL_54217_2001'
+    'urn:un:unece:uncefact:codelist:specification:5639:1988': 'NOKA\PHPUBL\UNCEFACT\CodeList\5639:1988'
+    'urn:oioubl:names:specification:oioubl:schema:xsd:CommonAggregateComponents-2': 'NOKA\PHPUBL\OIOUBL\Common\AggregateComponents'
+    'urn:oioubl:names:specification:oioubl:schema:xsd:CommonBasicComponents-2': 'NOKA\PHPUBL\OIOUBL\Common\BasicComponents'
+    'urn:oioubl:names:specification:oioubl:schema:xsd:UtilityStatement-2': 'NOKA\PHPUBL\OIOUBL'
+  destinations_php:
+    'NOKA\PHPUBL': src
+  destinations_jms:
+    'NOKA\PHPUBL': metadata
+  naming_strategy: short
+  path_generator: psr4

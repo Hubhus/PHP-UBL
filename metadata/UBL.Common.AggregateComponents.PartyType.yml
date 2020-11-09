@@ -1,0 +1,168 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\PartyType:
+    properties:
+        markCareIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: MarkCareIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMarkCareIndicator
+                setter: setMarkCareIndicator
+            type: bool
+        markAttentionIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: MarkAttentionIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMarkAttentionIndicator
+                setter: setMarkAttentionIndicator
+            type: bool
+        websiteURI:
+            expose: true
+            access_type: public_method
+            serialized_name: WebsiteURI
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getWebsiteURI
+                setter: setWebsiteURI
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\WebsiteURI
+        logoReferenceID:
+            expose: true
+            access_type: public_method
+            serialized_name: LogoReferenceID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLogoReferenceID
+                setter: setLogoReferenceID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\LogoReferenceID
+        endpointID:
+            expose: true
+            access_type: public_method
+            serialized_name: EndpointID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEndpointID
+                setter: setEndpointID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\EndpointID
+        partyIdentification:
+            expose: true
+            access_type: public_method
+            serialized_name: PartyIdentification
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPartyIdentification
+                setter: setPartyIdentification
+            xml_list:
+                inline: true
+                entry_name: PartyIdentification
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\PartyIdentification>
+        partyName:
+            expose: true
+            access_type: public_method
+            serialized_name: PartyName
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPartyName
+                setter: setPartyName
+            xml_list:
+                inline: true
+                entry_name: PartyName
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\PartyName>
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: Language
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\Language
+        postalAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: PostalAddress
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPostalAddress
+                setter: setPostalAddress
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\PostalAddress
+        physicalLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: PhysicalLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPhysicalLocation
+                setter: setPhysicalLocation
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\PhysicalLocation
+        partyTaxScheme:
+            expose: true
+            access_type: public_method
+            serialized_name: PartyTaxScheme
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPartyTaxScheme
+                setter: setPartyTaxScheme
+            xml_list:
+                inline: true
+                entry_name: PartyTaxScheme
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\PartyTaxScheme>
+        partyLegalEntity:
+            expose: true
+            access_type: public_method
+            serialized_name: PartyLegalEntity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPartyLegalEntity
+                setter: setPartyLegalEntity
+            xml_list:
+                inline: true
+                entry_name: PartyLegalEntity
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\PartyLegalEntity>
+        contact:
+            expose: true
+            access_type: public_method
+            serialized_name: Contact
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getContact
+                setter: setContact
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\Contact
+        person:
+            expose: true
+            access_type: public_method
+            serialized_name: Person
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPerson
+                setter: setPerson
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\Person
+        agentParty:
+            expose: true
+            access_type: public_method
+            serialized_name: AgentParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAgentParty
+                setter: setAgentParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\AgentParty

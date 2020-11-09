@@ -1,0 +1,36 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\LotIdentificationType:
+    properties:
+        lotNumberID:
+            expose: true
+            access_type: public_method
+            serialized_name: LotNumberID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLotNumberID
+                setter: setLotNumberID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\LotNumberID
+        expiryDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpiryDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExpiryDate
+                setter: setExpiryDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        additionalItemProperty:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalItemProperty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAdditionalItemProperty
+                setter: setAdditionalItemProperty
+            xml_list:
+                inline: true
+                entry_name: AdditionalItemProperty
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\AdditionalItemProperty>

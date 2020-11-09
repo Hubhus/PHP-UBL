@@ -1,0 +1,52 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\SecondaryHazardType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ID
+        placardNotation:
+            expose: true
+            access_type: public_method
+            serialized_name: PlacardNotation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPlacardNotation
+                setter: setPlacardNotation
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\PlacardNotation
+        placardEndorsement:
+            expose: true
+            access_type: public_method
+            serialized_name: PlacardEndorsement
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPlacardEndorsement
+                setter: setPlacardEndorsement
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\PlacardEndorsement
+        emergencyProceduresCode:
+            expose: true
+            access_type: public_method
+            serialized_name: EmergencyProceduresCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEmergencyProceduresCode
+                setter: setEmergencyProceduresCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\EmergencyProceduresCode
+        extension:
+            expose: true
+            access_type: public_method
+            serialized_name: Extension
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExtension
+                setter: setExtension
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\Extension

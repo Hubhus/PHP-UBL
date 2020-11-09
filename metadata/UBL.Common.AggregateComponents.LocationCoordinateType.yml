@@ -1,0 +1,72 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\LocationCoordinateType:
+    properties:
+        coordinateSystemCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CoordinateSystemCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCoordinateSystemCode
+                setter: setCoordinateSystemCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\CoordinateSystemCode
+        latitudeDegreesMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: LatitudeDegreesMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatitudeDegreesMeasure
+                setter: setLatitudeDegreesMeasure
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\LatitudeDegreesMeasure
+        latitudeMinutesMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: LatitudeMinutesMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatitudeMinutesMeasure
+                setter: setLatitudeMinutesMeasure
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\LatitudeMinutesMeasure
+        latitudeDirectionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: LatitudeDirectionCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatitudeDirectionCode
+                setter: setLatitudeDirectionCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\LatitudeDirectionCode
+        longitudeDegreesMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: LongitudeDegreesMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLongitudeDegreesMeasure
+                setter: setLongitudeDegreesMeasure
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\LongitudeDegreesMeasure
+        longitudeMinutesMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: LongitudeMinutesMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLongitudeMinutesMeasure
+                setter: setLongitudeMinutesMeasure
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\LongitudeMinutesMeasure
+        longitudeDirectionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: LongitudeDirectionCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLongitudeDirectionCode
+                setter: setLongitudeDirectionCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\LongitudeDirectionCode

@@ -1,0 +1,362 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\ConsignmentType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ID
+        summaryDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: SummaryDescription
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSummaryDescription
+                setter: setSummaryDescription
+            xml_list:
+                inline: true
+                entry_name: SummaryDescription
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\BasicComponents\SummaryDescription>
+        totalInvoiceAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalInvoiceAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTotalInvoiceAmount
+                setter: setTotalInvoiceAmount
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\TotalInvoiceAmount
+        declaredCustomsValueAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: DeclaredCustomsValueAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDeclaredCustomsValueAmount
+                setter: setDeclaredCustomsValueAmount
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\DeclaredCustomsValueAmount
+        tariffDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: TariffDescription
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTariffDescription
+                setter: setTariffDescription
+            xml_list:
+                inline: true
+                entry_name: TariffDescription
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\BasicComponents\TariffDescription>
+        tariffCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TariffCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTariffCode
+                setter: setTariffCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\TariffCode
+        insurancePremiumAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: InsurancePremiumAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInsurancePremiumAmount
+                setter: setInsurancePremiumAmount
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\InsurancePremiumAmount
+        grossWeightMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: GrossWeightMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getGrossWeightMeasure
+                setter: setGrossWeightMeasure
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\GrossWeightMeasure
+        netWeightMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: NetWeightMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNetWeightMeasure
+                setter: setNetWeightMeasure
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\NetWeightMeasure
+        netNetWeightMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: NetNetWeightMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNetNetWeightMeasure
+                setter: setNetNetWeightMeasure
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\NetNetWeightMeasure
+        chargeableWeightMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: ChargeableWeightMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getChargeableWeightMeasure
+                setter: setChargeableWeightMeasure
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ChargeableWeightMeasure
+        grossVolumeMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: GrossVolumeMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getGrossVolumeMeasure
+                setter: setGrossVolumeMeasure
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\GrossVolumeMeasure
+        netVolumeMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: NetVolumeMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNetVolumeMeasure
+                setter: setNetVolumeMeasure
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\NetVolumeMeasure
+        loadingLengthMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: LoadingLengthMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLoadingLengthMeasure
+                setter: setLoadingLengthMeasure
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\LoadingLengthMeasure
+        remarks:
+            expose: true
+            access_type: public_method
+            serialized_name: Remarks
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRemarks
+                setter: setRemarks
+            xml_list:
+                inline: true
+                entry_name: Remarks
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\BasicComponents\Remarks>
+        hazardousRiskIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: HazardousRiskIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getHazardousRiskIndicator
+                setter: setHazardousRiskIndicator
+            type: bool
+        consigneeParty:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsigneeParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getConsigneeParty
+                setter: setConsigneeParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\ConsigneeParty
+        exporterParty:
+            expose: true
+            access_type: public_method
+            serialized_name: ExporterParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getExporterParty
+                setter: setExporterParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\ExporterParty
+        consignorParty:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsignorParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getConsignorParty
+                setter: setConsignorParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\ConsignorParty
+        importerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: ImporterParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getImporterParty
+                setter: setImporterParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\ImporterParty
+        carrierParty:
+            expose: true
+            access_type: public_method
+            serialized_name: CarrierParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCarrierParty
+                setter: setCarrierParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\CarrierParty
+        freightForwarderParty:
+            expose: true
+            access_type: public_method
+            serialized_name: FreightForwarderParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getFreightForwarderParty
+                setter: setFreightForwarderParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\FreightForwarderParty
+        notifyParty:
+            expose: true
+            access_type: public_method
+            serialized_name: NotifyParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getNotifyParty
+                setter: setNotifyParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\NotifyParty
+        originalDespatchParty:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginalDespatchParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOriginalDespatchParty
+                setter: setOriginalDespatchParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\OriginalDespatchParty
+        finalDeliveryParty:
+            expose: true
+            access_type: public_method
+            serialized_name: FinalDeliveryParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getFinalDeliveryParty
+                setter: setFinalDeliveryParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\FinalDeliveryParty
+        originalDepartureCountry:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginalDepartureCountry
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOriginalDepartureCountry
+                setter: setOriginalDepartureCountry
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\OriginalDepartureCountry
+        finalDestinationCountry:
+            expose: true
+            access_type: public_method
+            serialized_name: FinalDestinationCountry
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getFinalDestinationCountry
+                setter: setFinalDestinationCountry
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\FinalDestinationCountry
+        transitCountry:
+            expose: true
+            access_type: public_method
+            serialized_name: TransitCountry
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTransitCountry
+                setter: setTransitCountry
+            xml_list:
+                inline: true
+                entry_name: TransitCountry
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\TransitCountry>
+        transportContract:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportContract
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTransportContract
+                setter: setTransportContract
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\TransportContract
+        originalDespatchTransportationService:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginalDespatchTransportationService
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOriginalDespatchTransportationService
+                setter: setOriginalDespatchTransportationService
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\OriginalDespatchTransportationService
+        finalDeliveryTransportationService:
+            expose: true
+            access_type: public_method
+            serialized_name: FinalDeliveryTransportationService
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getFinalDeliveryTransportationService
+                setter: setFinalDeliveryTransportationService
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\FinalDeliveryTransportationService
+        deliveryTerms:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryTerms
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDeliveryTerms
+                setter: setDeliveryTerms
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\DeliveryTerms
+        paymentTerms:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentTerms
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPaymentTerms
+                setter: setPaymentTerms
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\PaymentTerms
+        freightAllowanceCharge:
+            expose: true
+            access_type: public_method
+            serialized_name: FreightAllowanceCharge
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getFreightAllowanceCharge
+                setter: setFreightAllowanceCharge
+            xml_list:
+                inline: true
+                entry_name: FreightAllowanceCharge
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\FreightAllowanceCharge>

@@ -1,0 +1,62 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\DeliveryTermsType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ID
+        specialTerms:
+            expose: true
+            access_type: public_method
+            serialized_name: SpecialTerms
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSpecialTerms
+                setter: setSpecialTerms
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\SpecialTerms
+        lossRiskResponsibilityCode:
+            expose: true
+            access_type: public_method
+            serialized_name: LossRiskResponsibilityCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLossRiskResponsibilityCode
+                setter: setLossRiskResponsibilityCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\LossRiskResponsibilityCode
+        lossRisk:
+            expose: true
+            access_type: public_method
+            serialized_name: LossRisk
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLossRisk
+                setter: setLossRisk
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\LossRisk
+        deliveryLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDeliveryLocation
+                setter: setDeliveryLocation
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\DeliveryLocation
+        allowanceCharge:
+            expose: true
+            access_type: public_method
+            serialized_name: AllowanceCharge
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAllowanceCharge
+                setter: setAllowanceCharge
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\AllowanceCharge

@@ -1,0 +1,108 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\ItemLocationQuantityType:
+    properties:
+        leadTimeMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: LeadTimeMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLeadTimeMeasure
+                setter: setLeadTimeMeasure
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\LeadTimeMeasure
+        minimumQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: MinimumQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMinimumQuantity
+                setter: setMinimumQuantity
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\MinimumQuantity
+        maximumQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaximumQuantity
+                setter: setMaximumQuantity
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\MaximumQuantity
+        hazardousRiskIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: HazardousRiskIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getHazardousRiskIndicator
+                setter: setHazardousRiskIndicator
+            type: bool
+        tradingRestrictions:
+            expose: true
+            access_type: public_method
+            serialized_name: TradingRestrictions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTradingRestrictions
+                setter: setTradingRestrictions
+            xml_list:
+                inline: true
+                entry_name: TradingRestrictions
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\BasicComponents\TradingRestrictions>
+        applicableTerritoryAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: ApplicableTerritoryAddress
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getApplicableTerritoryAddress
+                setter: setApplicableTerritoryAddress
+            xml_list:
+                inline: true
+                entry_name: ApplicableTerritoryAddress
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\ApplicableTerritoryAddress>
+        price:
+            expose: true
+            access_type: public_method
+            serialized_name: Price
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPrice
+                setter: setPrice
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\Price
+        deliveryUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryUnit
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDeliveryUnit
+                setter: setDeliveryUnit
+            xml_list:
+                inline: true
+                entry_name: DeliveryUnit
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\DeliveryUnit>
+        applicableTaxCategory:
+            expose: true
+            access_type: public_method
+            serialized_name: ApplicableTaxCategory
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getApplicableTaxCategory
+                setter: setApplicableTaxCategory
+            xml_list:
+                inline: true
+                entry_name: ApplicableTaxCategory
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\ApplicableTaxCategory>

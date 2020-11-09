@@ -1,0 +1,3 @@
+NOKA\PHPUBL\UBL\Common\ExtensionComponents\UBLExtension:
+    xml_root_name: UBLExtension
+    xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'

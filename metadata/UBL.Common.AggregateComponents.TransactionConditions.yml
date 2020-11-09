@@ -1,0 +1,3 @@
+NOKA\PHPUBL\UBL\Common\AggregateComponents\TransactionConditions:
+    xml_root_name: TransactionConditions
+    xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
