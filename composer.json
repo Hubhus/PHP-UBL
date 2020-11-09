@@ -1,5 +1,5 @@
 {
-    "name": "noka/php-ubl",
+    "name": "noka-design/php-ubl",
     "description": "UBL classes generated from xsd",
     "type": "library",
     "license": "MIT",
