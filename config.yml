@@ -1,6 +1,7 @@
 xsd2php:
   namespaces:
     'urn:oasis:names:specification:ubl:schema:xsd:Invoice-2': 'NOKA\PHPUBL\UBL'
+    'urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2': 'NOKA\PHPUBL\UBL'
     'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2': 'NOKA\PHPUBL\UBL\Common\ExtensionComponents'
     'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2': 'NOKA\PHPUBL\UBL\Common\BasicComponents'
     'urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2': 'NOKA\PHPUBL\UBL\Common\QualifiedDatatypes'
