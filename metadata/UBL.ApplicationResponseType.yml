@@ -1,0 +1,179 @@
+NOKA\PHPUBL\UBL\ApplicationResponseType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<NOKA\PHPUBL\UBL\Common\ExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        uBLVersionID:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLVersionID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getUBLVersionID
+                setter: setUBLVersionID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\UBLVersionID
+        customizationID:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomizationID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCustomizationID
+                setter: setCustomizationID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\CustomizationID
+        profileID:
+            expose: true
+            access_type: public_method
+            serialized_name: ProfileID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getProfileID
+                setter: setProfileID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ProfileID
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ID
+        uUID:
+            expose: true
+            access_type: public_method
+            serialized_name: UUID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getUUID
+                setter: setUUID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\UUID
+        issueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: IssueDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIssueDate
+                setter: setIssueDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        issueTime:
+            expose: true
+            access_type: public_method
+            serialized_name: IssueTime
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIssueTime
+                setter: setIssueTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        responseDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ResponseDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getResponseDate
+                setter: setResponseDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        responseTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ResponseTime
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getResponseTime
+                setter: setResponseTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\BasicComponents\Note>
+        versionID:
+            expose: true
+            access_type: public_method
+            serialized_name: VersionID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getVersionID
+                setter: setVersionID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\VersionID
+        signature:
+            expose: true
+            access_type: public_method
+            serialized_name: Signature
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSignature
+                setter: setSignature
+            xml_list:
+                inline: true
+                entry_name: Signature
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\Signature>
+        senderParty:
+            expose: true
+            access_type: public_method
+            serialized_name: SenderParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSenderParty
+                setter: setSenderParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\SenderParty
+        receiverParty:
+            expose: true
+            access_type: public_method
+            serialized_name: ReceiverParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getReceiverParty
+                setter: setReceiverParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\ReceiverParty
+        documentResponse:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentResponse
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDocumentResponse
+                setter: setDocumentResponse
+            xml_list:
+                inline: true
+                entry_name: DocumentResponse
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\DocumentResponse>

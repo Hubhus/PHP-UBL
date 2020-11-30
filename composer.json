@@ -21,7 +21,7 @@
         "goetas-webservices/xsd2php": "^0.4.0"
     },
     "scripts": {
-        "build": "xsd2php convert config.yml schema/maindoc/UBL-Invoice-2.0.xsd",
+        "build": "@php build.php",
         "clean": "rm -rf metadata src/UBL src/UNCEFACT"
     }
 }

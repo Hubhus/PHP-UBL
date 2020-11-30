@@ -1,0 +1,437 @@
+NOKA\PHPUBL\UBL\ReminderType:
+    properties:
+        uBLExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLExtensions
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+            accessor:
+                getter: getUBLExtensions
+                setter: setUBLExtensions
+            type: array<NOKA\PHPUBL\UBL\Common\ExtensionComponents\UBLExtension>
+            xml_list:
+                inline: false
+                entry_name: UBLExtension
+                skip_when_empty: true
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
+        uBLVersionID:
+            expose: true
+            access_type: public_method
+            serialized_name: UBLVersionID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getUBLVersionID
+                setter: setUBLVersionID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\UBLVersionID
+        customizationID:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomizationID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCustomizationID
+                setter: setCustomizationID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\CustomizationID
+        profileID:
+            expose: true
+            access_type: public_method
+            serialized_name: ProfileID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getProfileID
+                setter: setProfileID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ProfileID
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ID
+        copyIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: CopyIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCopyIndicator
+                setter: setCopyIndicator
+            type: bool
+        uUID:
+            expose: true
+            access_type: public_method
+            serialized_name: UUID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getUUID
+                setter: setUUID
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\UUID
+        issueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: IssueDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIssueDate
+                setter: setIssueDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        issueTime:
+            expose: true
+            access_type: public_method
+            serialized_name: IssueTime
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getIssueTime
+                setter: setIssueTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        reminderTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ReminderTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReminderTypeCode
+                setter: setReminderTypeCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\ReminderTypeCode
+        reminderSequenceNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: ReminderSequenceNumeric
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReminderSequenceNumeric
+                setter: setReminderSequenceNumeric
+            type: float
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\BasicComponents\Note>
+        taxPointDate:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxPointDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxPointDate
+                setter: setTaxPointDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        documentCurrencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentCurrencyCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDocumentCurrencyCode
+                setter: setDocumentCurrencyCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\DocumentCurrencyCode
+        taxCurrencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxCurrencyCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxCurrencyCode
+                setter: setTaxCurrencyCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\TaxCurrencyCode
+        pricingCurrencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PricingCurrencyCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPricingCurrencyCode
+                setter: setPricingCurrencyCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\PricingCurrencyCode
+        paymentCurrencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentCurrencyCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentCurrencyCode
+                setter: setPaymentCurrencyCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\PaymentCurrencyCode
+        paymentAlternativeCurrencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentAlternativeCurrencyCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentAlternativeCurrencyCode
+                setter: setPaymentAlternativeCurrencyCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\PaymentAlternativeCurrencyCode
+        accountingCostCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountingCostCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAccountingCostCode
+                setter: setAccountingCostCode
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\AccountingCostCode
+        accountingCost:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountingCost
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAccountingCost
+                setter: setAccountingCost
+            type: NOKA\PHPUBL\UBL\Common\BasicComponents\AccountingCost
+        lineCountNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: LineCountNumeric
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLineCountNumeric
+                setter: setLineCountNumeric
+            type: float
+        reminderPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ReminderPeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getReminderPeriod
+                setter: setReminderPeriod
+            xml_list:
+                inline: true
+                entry_name: ReminderPeriod
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\ReminderPeriod>
+        additionalDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalDocumentReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAdditionalDocumentReference
+                setter: setAdditionalDocumentReference
+            xml_list:
+                inline: true
+                entry_name: AdditionalDocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\AdditionalDocumentReference>
+        signature:
+            expose: true
+            access_type: public_method
+            serialized_name: Signature
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSignature
+                setter: setSignature
+            xml_list:
+                inline: true
+                entry_name: Signature
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\Signature>
+        accountingSupplierParty:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountingSupplierParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAccountingSupplierParty
+                setter: setAccountingSupplierParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\AccountingSupplierParty
+        accountingCustomerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountingCustomerParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAccountingCustomerParty
+                setter: setAccountingCustomerParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\AccountingCustomerParty
+        payeeParty:
+            expose: true
+            access_type: public_method
+            serialized_name: PayeeParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPayeeParty
+                setter: setPayeeParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\PayeeParty
+        taxRepresentativeParty:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxRepresentativeParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTaxRepresentativeParty
+                setter: setTaxRepresentativeParty
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\TaxRepresentativeParty
+        paymentMeans:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentMeans
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPaymentMeans
+                setter: setPaymentMeans
+            xml_list:
+                inline: true
+                entry_name: PaymentMeans
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\PaymentMeans>
+        paymentTerms:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentTerms
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPaymentTerms
+                setter: setPaymentTerms
+            xml_list:
+                inline: true
+                entry_name: PaymentTerms
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\PaymentTerms>
+        prepaidPayment:
+            expose: true
+            access_type: public_method
+            serialized_name: PrepaidPayment
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPrepaidPayment
+                setter: setPrepaidPayment
+            xml_list:
+                inline: true
+                entry_name: PrepaidPayment
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\PrepaidPayment>
+        allowanceCharge:
+            expose: true
+            access_type: public_method
+            serialized_name: AllowanceCharge
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAllowanceCharge
+                setter: setAllowanceCharge
+            xml_list:
+                inline: true
+                entry_name: AllowanceCharge
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\AllowanceCharge>
+        taxExchangeRate:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxExchangeRate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTaxExchangeRate
+                setter: setTaxExchangeRate
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\TaxExchangeRate
+        pricingExchangeRate:
+            expose: true
+            access_type: public_method
+            serialized_name: PricingExchangeRate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPricingExchangeRate
+                setter: setPricingExchangeRate
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\PricingExchangeRate
+        paymentExchangeRate:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentExchangeRate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPaymentExchangeRate
+                setter: setPaymentExchangeRate
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\PaymentExchangeRate
+        paymentAlternativeExchangeRate:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentAlternativeExchangeRate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPaymentAlternativeExchangeRate
+                setter: setPaymentAlternativeExchangeRate
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\PaymentAlternativeExchangeRate
+        taxTotal:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxTotal
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTaxTotal
+                setter: setTaxTotal
+            xml_list:
+                inline: true
+                entry_name: TaxTotal
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\TaxTotal>
+        legalMonetaryTotal:
+            expose: true
+            access_type: public_method
+            serialized_name: LegalMonetaryTotal
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLegalMonetaryTotal
+                setter: setLegalMonetaryTotal
+            type: NOKA\PHPUBL\UBL\Common\AggregateComponents\LegalMonetaryTotal
+        reminderLine:
+            expose: true
+            access_type: public_method
+            serialized_name: ReminderLine
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getReminderLine
+                setter: setReminderLine
+            xml_list:
+                inline: true
+                entry_name: ReminderLine
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<NOKA\PHPUBL\UBL\Common\AggregateComponents\ReminderLine>

@@ -1,0 +1,3 @@
+NOKA\PHPUBL\UBL\CatalogueDeletion:
+    xml_root_name: CatalogueDeletion
+    xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CatalogueDeletion-2'
